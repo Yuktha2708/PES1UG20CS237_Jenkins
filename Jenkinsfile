@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'g++ temp.cpp -o temp'
-                 build job: 'PES1UG20CS237-1', wait: false
+                 build job: 'PES1UG20CS27-1', wait: false
                  echo 'Build is successful -Yuktha'
             }
         }
